@@ -1,10 +1,11 @@
 import React from 'react'
+import logo from '../assets/dc-logo.png'
 
 const Header = () => {
     return (
-        <div className='container'>
-            <header>
-                <img src="../assets/dc-logo.png" alt="" />
+        <div>
+            <header className='container'>
+                <img src={logo} alt="DC Logo" />
                 <ul>
                     <li> <a href="">CHARACTERS </a></li>
                     <li> <a href="">COMICS </a></li>
