@@ -4,6 +4,9 @@ import periscope from '../assets/footer-periscope.png'
 import pinterest from '../assets/footer-pinterest.png'
 import twitter from '../assets/footer-twitter.png'
 import youtube from '../assets/footer-youtube.png'
+import dcLogo from '../assets/dc-logo-bg.png'
+
+
 
 function Footer() {
     return (
@@ -51,6 +54,7 @@ function Footer() {
                         <li> <a href="">DC Universe </a></li>
                         <li> <a href="">DC Power Visa </a></li>
                     </ul>
+                    <img className='position' src={dcLogo} alt="facebook logo" />
                 </div>
             </div>
             <div className='footer-grey'>
