@@ -8,7 +8,32 @@
      font-family: 'Open Sans', sans-serif;
  }
 
+ header {
+     height: 100px;
+     display: flex;
+     justify-content: end;
+     align-items: center;
+
+ }
+
  .container {
-     max-width: 1200px;
+     max-width: 1600px;
      margin: 0 auto;
+ }
+
+ /* header style */
+ ul {
+     list-style: none;
+     display: flex;
+     gap: 20px;
+ }
+
+ ul li {
+     font-size: 15px;
+ }
+
+ ul li:nth-child(2) {
+     color: blue;
+     border-bottom: solid 2px blue;
+
  }
