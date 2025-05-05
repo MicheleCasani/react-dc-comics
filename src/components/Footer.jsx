@@ -1,4 +1,9 @@
 import React from 'react'
+import facebook from '../assets/footer-facebook.png'
+import periscope from '../assets/footer-periscope.png'
+import pinterest from '../assets/footer-pinterest.png'
+import twitter from '../assets/footer-twitter.png'
+import youtube from '../assets/footer-youtube.png'
 
 function Footer() {
     return (
@@ -48,8 +53,18 @@ function Footer() {
                     </ul>
                 </div>
             </div>
-            <div>
-
+            <div className='footer-grey'>
+                <div className='container-footer-2'>
+                    <h3><a href="">SIGN-UP NOW!</a></h3>
+                    <div className='display-footer'>
+                        <div><a href="">FOLLOW US</a></div>
+                        <img src={facebook} alt="facebook logo" />
+                        <img src={twitter} alt="twitter Logo" />
+                        <img src={youtube} alt="youtube Logo" />
+                        <img src={pinterest} alt="pinterest Logo" />
+                        <img src={periscope} alt="periscope Logo" />
+                    </div>
+                </div>
             </div>
         </footer>
     )

@@ -97,7 +97,7 @@
  footer {
      background-image: url('./assets/footer-bg.jpg');
      background-size: cover;
-     height: 600px;
+     height: 800px;
  }
 
  .footer-list {
@@ -120,5 +120,39 @@
      max-width: 1600px;
      margin: 0 auto;
      display: flex;
-     padding-top: 70px;
+     padding-top: 150px;
+ }
+
+ .container-footer-2 {
+     max-width: 1600px;
+     margin: 0 auto;
+     padding-top: 50px;
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ .footer-grey {
+     background-color: rgb(61, 61, 61);
+     height: 200px;
+     margin-top: 200px;
+ }
+
+ .container-footer-2 h3 a {
+     text-decoration: none;
+     color: white;
+     border: solid 2px rgba(2, 130, 249, 255);
+     font-size: 20px;
+     padding: 10px;
+ }
+
+ .display-footer {
+     display: flex;
+     margin-left: 100px;
+     gap: 20px;
+ }
+
+ .display-footer a {
+     text-decoration: none;
+     font-weight: 1000;
  }
