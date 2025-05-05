@@ -44,7 +44,7 @@
 
  ul li:nth-child(2) {
      color: blue;
-     border-bottom: solid 2px blue;
+     border-bottom: solid 2px rgba(2, 130, 249, 255);
  }
 
  header img {
@@ -61,7 +61,8 @@
  }
 
  .main-blue {
-     background-color: blue;
+     background-color: rgba(2, 130, 249, 255);
+     ;
      height: 150px;
      display: flex;
      align-items: center;
@@ -84,4 +85,5 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
+     width: 100%;
  }
