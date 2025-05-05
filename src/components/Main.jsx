@@ -18,19 +18,19 @@ const Main = () => {
                 <div className='container'>
                     <ul className='main-list'>
                         <li>
-                            <img src={digital} alt="DC Logo" />
+                            <img src={digital} alt="Digital logo" />
                             <a href="">DIGITAL COMICS </a></li>
                         <li>
-                            <img src={merchandise} alt="DC Logo" />
+                            <img src={merchandise} alt="merchandise Logo" />
                             <a href="">DC MERCHANDISE </a></li>
                         <li>
-                            <img src={subscriptions} alt="DC Logo" />
+                            <img src={subscriptions} alt="subscriptions Logo" />
                             <a href="">SUBSCRIPTION </a></li>
                         <li>
-                            <img src={shop} alt="DC Logo" />
+                            <img src={shop} alt="shop Logo" />
                             <a href="">COMIC SHOP LOCATOR </a></li>
                         <li>
-                            <img src={visa} alt="DC Logo" />
+                            <img src={visa} alt="visa Logo" />
                             <a href="">DC POWER VISA </a></li>
                     </ul>
                 </div>
