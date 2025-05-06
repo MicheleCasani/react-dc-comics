@@ -8,6 +8,16 @@ const Main = () => {
             <div className='main-black'>
                 <div className='container'>
                     <ComicCard />
+                    <ComicCard />
+                    <ComicCard />
+                    <ComicCard />
+                    <ComicCard />
+                    <ComicCard />
+                    <ComicCard />
+                    <ComicCard />
+                    <ComicCard />
+                    <ComicCard />
+                    <ComicCard />
                 </div>
             </div>
         </>

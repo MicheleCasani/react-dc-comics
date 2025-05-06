@@ -100,15 +100,19 @@
 
  /* card */
 
- .card {
+ .container-card {
      display: flex;
      flex-wrap: wrap;
-     margin: 10px;
+     gap: 10px;
+ }
+
+ .card {
+     width: calc(25% - 20px);
+     min-width: 250px;
  }
 
  .card-body {
      background-color: white;
-     width: 20%
  }
 
  .card-body img {
