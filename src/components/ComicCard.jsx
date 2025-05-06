@@ -5,7 +5,7 @@ function ComicCard(props) {
         <div className='card'>
             <div className='card-body'>
                 <img src={props.img} alt="" />
-                <div> {props.title}</div>
+                <div> {props.series}</div>
             </div>
         </div>
     )
