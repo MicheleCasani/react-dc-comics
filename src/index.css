@@ -107,8 +107,7 @@
  }
 
  .card {
-     width: calc(25% - 20px);
-     min-width: 250px;
+     width: 20%;
  }
 
  .card-body {

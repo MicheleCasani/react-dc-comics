@@ -6,7 +6,8 @@ const Main = () => {
         <>
             <div className='jumbotron'></div>
             <div className='main-black'>
-                <div className='container'>
+                <div className='container-card'>
+                    <ComicCard />
                     <ComicCard />
                     <ComicCard />
                     <ComicCard />
