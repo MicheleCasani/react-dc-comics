@@ -53,19 +53,49 @@
 
  /* main style */
 
+ .display-load {
+     display: flex;
+     justify-content: center;
+     margin-top: 40px;
+ }
+
+ .load-btn {
+     background-color: rgba(2, 130, 249, 255);
+     color: white;
+     padding: 10px 30px;
+     text-decoration: none;
+     font-size: 15px;
+     text-align: center;
+ }
+
+ .series-btn {
+     background-color: rgba(2, 130, 249, 255);
+     color: white;
+     padding: 10px;
+     display: inline;
+     position: absolute;
+     top: 470px;
+     left: 300px;
+ }
+
  .jumbotron {
      height: 500px;
      background-image: url(C:\Users\casan\Desktop\Boolean\esercizi\react-dc-comics\src\assets\jumbotron.jpg);
      background-repeat: no-repeat;
      background-size: cover;
+     position: relative;
 
  }
 
  .main-black {
      background-color: black;
+     height: 600px;
+ }
 
+ .display {
      display: flex;
      align-items: center;
+     justify-content: center;
  }
 
  .main-blue {
@@ -103,25 +133,38 @@
  .container-card {
      display: flex;
      flex-wrap: wrap;
-     gap: 10px;
      margin: 0 auto;
-     justify-content: space-between;
+
+
  }
 
- .card {}
+ .card {
+     width: calc(100%/ 6);
+     margin: 50px 0px;
+ }
 
  .card-body {
-     background-color: white;
-     max-width: 100px;
-     height: 200px;
+     max-width: 150px;
+     height: 150px;
  }
 
  .card-body img {
      width: 100%;
  }
 
+ .img-card {
+     height: 150px;
+     overflow: hidden;
+     width: 100%;
+ }
+
  .title {
      text-align: center;
+ }
+
+ .color-white {
+     color: white;
+     background-color: black;
  }
 
  /* footer syle */
@@ -193,6 +236,7 @@
  .display-footer a {
      text-decoration: none;
      font-weight: 1000;
+     color: rgba(2, 130, 249, 255);
  }
 
  .position {

@@ -4,8 +4,8 @@ function ComicCard(props) {
     return (
         <div className='card'>
             <div className='card-body'>
-                <img src={props.img} alt="" />
-                <div> {props.series}</div>
+                <img className='img-card' src={props.img} alt="" />
+                <div className='color-white'> {props.series}</div>
             </div>
         </div>
     )
