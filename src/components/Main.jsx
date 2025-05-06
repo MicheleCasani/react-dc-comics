@@ -1,4 +1,5 @@
 import React from 'react'
+import ComicCard from './ComicCard'
 
 const Main = () => {
     return (
@@ -6,7 +7,7 @@ const Main = () => {
             <div className='jumbotron'></div>
             <div className='main-black'>
                 <div className='container'>
-                    <h2>Content goes here</h2>
+                    <ComicCard />
                 </div>
             </div>
         </>

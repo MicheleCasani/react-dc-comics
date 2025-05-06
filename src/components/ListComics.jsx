@@ -1,3 +1,5 @@
+import ComicCard from "./ComicCard";
+
 const comics = [
     {
         id: 1,

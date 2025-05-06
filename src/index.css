@@ -63,7 +63,7 @@
 
  .main-black {
      background-color: black;
-     height: 150px;
+
      display: flex;
      align-items: center;
  }
@@ -96,6 +96,27 @@
      justify-content: space-between;
      align-items: center;
      width: 100%;
+ }
+
+ /* card */
+
+ .card {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 10px;
+ }
+
+ .card-body {
+     background-color: white;
+     width: 20%
+ }
+
+ .card-body img {
+     width: 100%;
+ }
+
+ .title {
+     text-align: center;
  }
 
  /* footer syle */
