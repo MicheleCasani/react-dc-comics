@@ -53,6 +53,14 @@
 
  /* main style */
 
+ .jumbotron {
+     height: 500px;
+     background-image: url(C:\Users\casan\Desktop\Boolean\esercizi\react-dc-comics\src\assets\jumbotron.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+ }
+
  .main-black {
      background-color: black;
      height: 150px;

@@ -3,6 +3,7 @@ import React from 'react'
 const Main = () => {
     return (
         <>
+            <div className='jumbotron'></div>
             <div className='main-black'>
                 <div className='container'>
                     <h2>Content goes here</h2>
