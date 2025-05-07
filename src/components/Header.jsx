@@ -1,22 +1,82 @@
 import React from 'react'
 import logo from '../assets/dc-logo.png'
 
+const links = [
+    {
+        id: 1,
+        href: "#",
+        label: "Characters",
+        current: false,
+    },
+    {
+        id: 2,
+        href: "#",
+        label: "Comics",
+        current: true,
+    },
+    {
+        id: 3,
+        href: "#",
+        label: "Movies",
+        current: false,
+    },
+    {
+        id: 4,
+        href: "#",
+        label: "TV",
+        current: false,
+    },
+    {
+        id: 5,
+        href: "#",
+        label: "Games",
+        current: false,
+    },
+    {
+        id: 6,
+        href: "#",
+        label: "Collectibles",
+        current: false,
+    },
+    {
+        id: 7,
+        href: "#",
+        label: "Videos",
+        current: false,
+    },
+    {
+        id: 8,
+        href: "#",
+        label: "Fans",
+        current: false,
+    },
+    {
+        id: 9,
+        href: "#",
+        label: "News",
+        current: false,
+    },
+    {
+        id: 10,
+        href: "#",
+        label: "Shop",
+        current: false,
+    }
+]
+
+const linksList = links.map((link) => (
+    <li key={link.id}>
+        <a href='#'>{link.label}</a>
+    </li>
+))
+
 const Header = () => {
     return (
         <div>
             <header className='container'>
                 <img src={logo} alt="DC Logo" />
                 <ul>
-                    <li> <a href="">CHARACTERS </a></li>
-                    <li> <a href="">COMICS </a></li>
-                    <li> <a href="">MOVIES </a></li>
-                    <li> <a href="">TV </a></li>
-                    <li> <a href="">GAMES </a></li>
-                    <li> <a href="">GOLLECTIBLES </a></li>
-                    <li> <a href="">VIDEOS </a></li>
-                    <li> <a href="">FANS </a></li>
-                    <li> <a href="">NEWS </a></li>
-                    <li> <a href="">SHOP </a></li>
+                    {linksList}
                 </ul>
             </header>
         </div>
